@@ -6,4 +6,6 @@ made using :
 3 JS
 
 ```
-[Visit Website](https://leo1104.github.io/web-development)
+:mag:	 Website :: https://leo1104.github.io/Darksoul_Official/
+
+:bellhop_bell: Screenshot :: ![Landing Page Screenshot](/screenshot_darksoul_landing_page.png)
