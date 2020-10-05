@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <input type="text" name="" id="t1">
+    <button id="b1">add</button>
+    <input type="text" name="" id="t2">
+    <button id="b2">remove</button>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                var v1=$("#t1").val();
+                $("p").append(v1);
+                $("#t1").empty();
+            });
+            $("#b2").click(function(){
+                var v12=$("#t2").val();
+                $("p").empty(v12);
+            });
+        });
+    </script>
+    <p></p>
+</body>
+</html>
