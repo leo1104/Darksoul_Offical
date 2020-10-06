@@ -1,6 +1,10 @@
 body{
     background-image: url("./black_glitch.jpg" );
 }
+
+img{
+    border-radius: 50px;
+}
 /* .navbar ul li a:hover{
     color: #255784;
     background-color: #2196f3;
