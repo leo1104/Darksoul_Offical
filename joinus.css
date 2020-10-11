@@ -5,6 +5,9 @@ body{
     background-size: cover; */
     background-color: black;
 }
+.img1{
+    border-radius: 50px;
+}
 
 .login-box{
     width: 280px;

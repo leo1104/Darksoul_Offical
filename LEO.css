@@ -2,16 +2,30 @@ body{
     background-image: url("./black_glitch.jpg" );
 }
 
-img{
+.img1{
     border-radius: 50px;
 }
-/* .navbar ul li a:hover{
+
+button{
+    color: blue;
+}
+.custom-toggler.navbar-toggler { 
+    border-color: #2196f3; 
+} 
+.custom-toggler .navbar-toggler-icon {  background-image: url( 
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+            } 
+
+.nav :hover{
     color: #255784;
     background-color: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3;
+}
+
+
+.nav-link{
+    position: relative;
     overflow: hidden;
-   
-    
 }
 
 a span{
@@ -32,7 +46,7 @@ a:hover span:nth-child(1){
     transition: 5s;
 }
 
-a span:nth-child(3)
+a span:nth-child(2)
 {
     bottom:0;
     right: -100%;
@@ -41,41 +55,18 @@ a span:nth-child(3)
     background: linear-gradient(270deg,transparent,#044075);
 }
 
-a:hover span:nth-child(3){
+a:hover span:nth-child(2){
     right: 100%;
     transition: 5s;
     transition-delay: 0.25s;
 }
 
 
-a span:nth-child(2)
-{
-    top:-100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg,transparent,#2196f3);
-}
-a:hover span:nth-child(2){
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
-}
 
-a span:nth-child(4)
-{
-    bottom:-100;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg,transparent,#2196f3);
-}
 
-a:hover span:nth-child(4){
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
-} */
+
+
+
 
 
 .cont{
@@ -139,5 +130,14 @@ background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%
 }
 .caro{
     top: 22px;
-    border-radius: 0;
 }
+
+.navbar{
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+       
+}
+
+a{
+    color: white;
+}
+
