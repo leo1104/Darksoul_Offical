@@ -74,6 +74,7 @@ a:hover span:nth-child(2){
     justify-content: center;
     position: relative;
     top: 110px;
+    padding: 0;
 }
 .border{
     /* display: flex; */
